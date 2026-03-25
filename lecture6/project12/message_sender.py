@@ -1,8 +1,7 @@
 from twilio.rest import Client
 from datetime import datetime,timedelta
 import time
-account_id='jgegfjhdhvdjhdvfhdbhv'
-oath_tokan='khfghdflkdgfhddkjhkdhvdijhhd'
+
 client = Client(account_id,oath_tokan)
 
 def send_msg(recipient_number,message_body):
